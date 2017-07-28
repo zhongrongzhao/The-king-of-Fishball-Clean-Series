@@ -13,13 +13,13 @@ set num=
 :ag
 set /p num= 鱼蛋清霸1.4请你选择你要执行的操作：
 if "%num%"=="0" (
- 不用打开这个\鱼蛋清霸1.4简介.txt
+ bin\鱼蛋清霸1.4简介.txt
 )
 if "%num%"=="1" ( 
 cleanmgr.exe  
 ) 
 if "%num%"=="2" (
- 不用打开这个\鱼蛋清霸.bat
+ bin\鱼蛋清霸.bat
 )
 if "%num%"=="3" (
 dfrg.msc
@@ -28,16 +28,16 @@ if "%num%"=="4" (
 shutdown -a
 )
 if "%num%"=="5" (
- 不用打开这个\鱼蛋杀手.bat
+ bin\鱼蛋杀手.bat
 )
 if "%num%"=="6" (
- 不用打开这个\多功能系统优化设置.cmd
+ bin\多功能系统优化设置.cmd
 )
 if "%num%"=="7" (
- 不用打开这个\删除历史记录.cmd
+ bin\删除历史记录.cmd
 )
 if "%num%"=="8" (
- 不用打开这个\IE修复.cmd
+ bin\IE修复.cmd
 )
 echo 请你输入任意键，退出..
 pause
